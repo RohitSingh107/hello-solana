@@ -1,0 +1,31 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn global bin
+
+PATH: 
+  /home/rohits/.cabal/bin:/home/rohits/.ghcup/bin:/home/rohits/.local/share/solana/install/active_release/bin:/home/rohits/.avm/bin:/home/rohits/.cargo/bin:/home/rohits/.deta/bin:/home/rohits/.yarn/bin:/home/rohits/.cabal/bin:/home/rohits/.ghcup/bin:/home/rohits/.local/share/solana/install/active_release/bin:/home/rohits/.avm/bin:/home/rohits/.cargo/bin:/home/rohits/.deta/bin:/home/rohits/.yarn/bin:/home/rohits/.cabal/bin:/home/rohits/.ghcup/bin:/home/rohits/.pub-cache/bin:/home/rohits/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/rohits/.foundry/bin:/home/rohits/.foundry/bin:/home/rohits/.foundry/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.0.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/rohits/mydata/code/git/solana-dev/hello-solana/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
